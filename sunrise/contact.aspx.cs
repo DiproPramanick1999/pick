@@ -30,7 +30,7 @@ namespace sunrise
                 ss.Host = "smtp.gmail.com";
                 ss.Port = 587;
                 ss.EnableSsl = true;
-                NetworkCredential nc = new NetworkCredential("pranav1503@gmail.com", "meera1999");
+                NetworkCredential nc = new NetworkCredential("pranav1503@gmail.com", "test");
                 ss.UseDefaultCredentials = true;
                 ss.Credentials = nc;
                 ss.Send(m);
